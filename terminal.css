@@ -1,0 +1,62 @@
+/* terminal.css — styles for the hero terminal widget only */
+
+.terminal {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #111118;
+  border: 1px solid #2a2a3a;
+  border-radius: 10px;
+  width: 360px;
+  overflow: hidden;
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .terminal { display: block; }
+}
+
+.terminal-bar {
+  background: #1a1a24;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid #2a2a3a;
+}
+
+.terminal-bar span {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: #6b6b85;
+  margin-left: auto;
+}
+
+.dot { width: 10px; height: 10px; border-radius: 50%; }
+.dot-red    { background: #ff5f57; }
+.dot-yellow { background: #febc2e; }
+.dot-green  { background: #28c840; }
+
+.terminal-body {
+  padding: 1.25rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  line-height: 1.9;
+  color: #6b6b85;
+}
+
+.t-green  { color: #00ff88; }
+.t-purple { color: #a78bfa; }
+.t-amber  { color: #fbbf24; }
+.t-dim    { color: #3a3a50; }
+
+.cursor::after {
+  content: '▋';
+  color: #00ff88;
+  animation: blink 1.1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}

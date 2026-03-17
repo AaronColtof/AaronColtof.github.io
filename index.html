@@ -1,1 +1,250 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aaron Coltof</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="terminal.css">
+</head>
+
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">Aaron<span> Coltof</span></a>
+    <ul class="nav-links">
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="container" style="position:relative; width:100%; display:flex; align-items:center;">
+      <div class="hero-content">
+        <h1>Ready <em>for</em><br>take <em>off?</em></h1>
+        <p class="hero-desc">I build interactive experiences and games using Unity, C#, and C++. Passionate about
+          performance, systems, and the technology behind aviation.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-bar">
+          <div class="dot dot-red"></div>
+          <div class="dot dot-yellow"></div>
+          <div class="dot dot-green"></div>
+          <span>~/portfolio</span>
+        </div>
+        <div class="terminal-body">
+          <div><span class="t-green">➜</span> <span class="t-purple">whoami</span></div>
+          <div style="color:#e8e8f0;">Aaron Coltof</div>
+          <div style="color:#e8e8f0;">· Software developer</div>
+          <div style="color:#e8e8f0;">· System designer</div>
+          <div style="color:#e8e8f0;">· Critical thinker</div>
+          <div style="margin-top:0.5rem;"><span class="t-green">➜</span> <span class="t-purple">cat</span> <span
+              class="t-amber">skills.json</span></div>
+          <div class="t-dim">{</div>
+          <div>&nbsp;&nbsp;<span class="t-amber">"languages"</span>: [<span style="color:#86efac;">"C#"</span>, <span
+              style="color:#86efac;">"C++"</span>, <span style="color:#86efac;">"SQL"</span>, <span
+              style="color:#86efac;">"Python"</span>, <span style="color:#86efac;">"Arduino"</span>],</div>
+          <div>&nbsp;&nbsp;<span class="t-amber">"programs"</span>: [<span style="color:#86efac;">"Unity"</span>],</div>
+          <div>&nbsp;&nbsp;<span class="t-amber">"Hello"</span>: <span style="color:#86efac;">", World!"</span>,</div>
+          <div>&nbsp;&nbsp;<span class="t-amber">"open_for_ideas"</span>: <span class="t-green">true</span></div>
+          <div class="t-dim">}</div>
+          <div style="margin-top:0.5rem;"><span class="t-green">➜</span> <span class="cursor"></span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">// expertise</div>
+      <h2 class="section-title">What I <span>Work With</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>Unity</h3>
+          <p>Built multiplayer games using FishNet and integrated Arduino hardware. Focused on core architecture and
+            system design patterns.</p>
+          <div class="tag-list">
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+            <span class="tag">FishNet</span>
+            <span class="tag">Arduino</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>C++</h3>
+          <p>Completed a university course in C++ and built a maze generator from scratch. Comfortable with classes,
+            pointers, and memory management.</p>
+          <div class="tag-list">
+            <span class="tag">C++</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Pointers</span>
+            <span class="tag">Algorithms</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Python & SQL</h3>
+          <p>General scripting and automation with Python. Comfortable writing queries, managing tables, and working
+            with relational databases.</p>
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Scripting</span>
+            <span class="tag">Databases</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Arduino</h3>
+          <p>Hands-on experience with hardware communication protocols, including I2C and NFC readers.</p>
+          <div class="tag-list">
+            <span class="tag">Arduino</span>
+            <span class="tag">I2C</span>
+            <span class="tag">NFC</span>
+            <span class="tag">Hardware</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Manufacturing</h3>
+          <p>Designing parts in Autodesk Fusion with precise measurements and bringing them to life with 3D printing.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Autodesk Fusion</span>
+            <span class="tag">3D Printing</span>
+            <span class="tag">CAD</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Version Control</h3>
+          <p>Managing code and project history with Git, GitHub, and Unity Version Control for both solo and
+            collaborative workflows.</p>
+          <div class="tag-list">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Unity Version Control</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>ASP.NET</h3>
+          <p>Built web applications using ASP.NET, including dynamic survey and form systems with data processing and storage.</p>
+          <div class="tag-list">
+            <span class="tag">ASP.NET</span>
+            <span class="tag">C#</span>
+            <span class="tag">Web Development</span>
+            <span class="tag">Forms</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">// my creations</div>
+      <h2 class="section-title">Selected <span>Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3>Siege of the Void</h3>
+          <p>A Skylanders-inspired quest-based game built in a team, centered around real-world NFC interaction. As part
+            of a self-directed research project, we explored the technology behind Skylanders and recreated the full
+            experience, from custom NFC figures and a working portal to a complete playable game.
+
+            I contributed to both the software and system design, combining hardware and gameplay into one cohesive
+            experience.</p>
+          <div class="project-stack">
+            <span class="stack-tag">Unity</span>
+            <span class="stack-tag">C#</span>
+            <span class="stack-tag">NFC</span>
+            <span class="stack-tag">Arduino</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Multiplayer Space Shooter</h3>
+          <p>A real-time 3D multiplayer space shooter developed in a team using Unity and FishNet networking. Players
+            can connect from anywhere and compete to destroy each other’s base.
+
+            I worked on core gameplay systems and multiplayer functionality, focusing on synchronization and smooth
+            online interaction.</p>
+          <div class="project-stack">
+            <span class="stack-tag">Unity</span>
+            <span class="stack-tag">C#</span>
+            <span class="stack-tag">FishNet</span>
+            <span class="stack-tag">Multiplayer networking</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Maze Generator</h3>
+          <p>A procedural maze generator written in C++ as part of a university-level course. The program generates a
+            new random maze each run, guaranteeing that it is always solvable.
+
+            This project focused on algorithms, data structures, and efficient memory usage.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">C++</span>
+            <span class="stack-tag">Algorithms</span>
+            <span class="stack-tag">Procedural Generation</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">// about</div>
+      <h2 class="section-title">The Person <span>Behind the code</span></h2>
+      <div class="about-text">
+        <p>I’m a final-year VWO student at Metis Montessori Lyceum in Amsterdam with a strong foundation in software
+          development. Over the past six years, I’ve been part of the Coderclass program, where I spent extensive time
+          building projects and exploring different areas of computer science both in and outside the classroom. </p>
+
+        <p>I enjoy working with systems, game development, and low-level programming, and I’m always curious about how
+          things work under the hood. Outside of coding, I spend my time mountain biking, climbing, and diving into
+          aviation. Currently, I’m building a custom RC plane using 3D-printed parts, combining my interest in
+          engineering and design. </p>
+
+        <p>Next year, I aim to study Aerospace Engineering at TU Delft.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <h2>Tinker with me</h2>
+        <p>Ready to take off together? ✈️</p>
+        <div class="contact-links">
+          <a href="https://github.com/AaronColtof" class="social-btn" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/aaron-coltof-950706349/" class="social-btn" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>built with love — 2026 — Aaron Coltof
